@@ -16,7 +16,7 @@ export function CountryCard({img, name, abbr}){
             flexDirection : "column",
             margin : "10px",
             textAlign : "center"
-        }}>
+        }} className="countryCard">
             <img src={img} alt={abbr} style={{height:"120px", width:"120px"}} />
             <h2>{name}</h2>
         </div>
